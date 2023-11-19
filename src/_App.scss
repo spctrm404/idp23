@@ -9,7 +9,7 @@
   top: 0;
   left: 0;
   padding-block: 6rem 4rem;
-  font-size: 4rem;
+  font-size: 4.5rem;
   font-weight: 700;
   line-height: 1.2;
   color: rgb(124 218 51);
@@ -24,11 +24,14 @@
 
 .button {
   width: fit-content;
-  padding-block: 0.75rem;
-  padding-inline: 1.25rem;
+  padding-block: 1.25rem;
+  padding-inline: 2rem;
   margin-block: 3rem;
   margin-inline: auto;
+  font-size: 1.125rem;
+  line-height: 1.125rem;
   color: rgb(124 218 51);
+  cursor: pointer;
   background-color: rgb(27 54 6);
   border-radius: 256rem;
 }

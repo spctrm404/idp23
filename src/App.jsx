@@ -308,7 +308,7 @@ function App() {
 
   return (
     <div className={`container`}>
-      <h1 className={`title`}>Selected Works of IDP23</h1>
+      <h1 className={`title`}>IDP23: Selected Works</h1>
       <div className={`grid`}>
         {selectedSix.map((eachWork) => {
           return (
@@ -322,7 +322,7 @@ function App() {
         })}
       </div>
       <div className={`button`} onClick={handleClick}>
-        Show Others
+        다른 작업 보기
       </div>
     </div>
   );
